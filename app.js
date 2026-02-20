@@ -9,4 +9,5 @@ var b = 20;
 
 // console.log(global);
 
-console.log(this);
+console.log(this); // empty object
+console.log(globalThis === global);
