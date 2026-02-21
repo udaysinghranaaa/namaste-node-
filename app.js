@@ -1,9 +1,11 @@
 // Import another module (xyz.js) – optional, only if file exists
 require("./xyz.js");
 
-// Import both functions from calculate/index.js
+// Import both functions from c("alculate/index.js
 // This avoids duplicate imports and keeps code clean
 const { calculateSum, calculateMultiply } = require("./calculate");
+const data = require("./data.json");
+console.log(JSON.stringify(data));
 
 var name = "Namaste NodeJS";
 
